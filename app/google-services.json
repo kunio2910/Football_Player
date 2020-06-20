@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "518500107608",
+    "firebase_url": "https://footballplayer-16a3b.firebaseio.com",
+    "project_id": "footballplayer-16a3b",
+    "storage_bucket": "footballplayer-16a3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518500107608:android:0889a5d911d9c85065912d",
+        "android_client_info": {
+          "package_name": "com.letran.football_player"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518500107608-vq9qqjh0l239ugu4bcqmuad7e43ufuhg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkaZi9MMoAF5cN7jgZP6sbGzjINs-cFj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518500107608-vq9qqjh0l239ugu4bcqmuad7e43ufuhg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
