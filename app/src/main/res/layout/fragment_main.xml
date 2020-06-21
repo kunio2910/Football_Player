@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        <fragment
+            android:id="@+id/update_new_layer_fragment"
+            android:name="com.letran.football_player.fragments.Update_NewPlayer_Fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_update_new_layer" />
+
+        <fragment
+            android:id="@+id/national_fragment"
+            android:layout_below="@+id/update_new_layer_fragment"
+            android:name="com.letran.football_player.fragments.National_Fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_national" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

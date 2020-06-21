@@ -6,4 +6,5 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="logo_h">100dp</dimen>
     <dimen name="logo_w">143dp</dimen>
+    <dimen name="margin_left_main">10dp</dimen>
 </resources>
